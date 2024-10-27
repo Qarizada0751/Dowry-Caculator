@@ -1,0 +1,72 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+/* Main Container */
+.calculator-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    width: 350px;
+    max-width: 90%;
+    text-align: center;
+}
+
+/* Form Label and Input Styling */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #444;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Checkbox and Radio Styling */
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Button Styling */
+#calculateBtn {
+    background-color: #fda085;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+#calculateBtn:hover {
+    background-color: #f6d365;
+}
+
+/* Result Text */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
